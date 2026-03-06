@@ -1,13 +1,9 @@
-body, html {
-  height: 100%;
-  width: 100%;
-  margin: 0; /* Removes default browser margins */
-  padding: 0;
-}
-
-img {
-  width: 100vw;   /* 100% of the viewport width */
-  height: 100vh;  /* 100% of the viewport height */
-  object-fit: cover; /* Resizes to fill the container while preserving aspect ratio and cropping excess */
-  display: block; /* Helps remove extra space left by inline elements */
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url('kate.jpg');
+  background-size: contain;    
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-color: #000;      
 }
