@@ -1,0 +1,13 @@
+body, html {
+  height: 100%;
+  margin: 0; /* Removes default browser margins */
+  padding: 0;
+}
+
+body {
+  background-image: url("your-image.jpg"); /* Replace with your image path */
+  background-repeat: no-repeat;
+  background-position: center center; /* Centers the image */
+  background-attachment: fixed; /* Keeps image fixed during scrolling */
+  background-size: cover; /* Ensures the image covers the entire screen */
+}
