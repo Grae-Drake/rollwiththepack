@@ -1,13 +1,13 @@
 body, html {
   height: 100%;
+  width: 100%;
   margin: 0; /* Removes default browser margins */
   padding: 0;
 }
 
-body {
-  background-image: url("your-image.jpg"); /* Replace with your image path */
-  background-repeat: no-repeat;
-  background-position: center center; /* Centers the image */
-  background-attachment: fixed; /* Keeps image fixed during scrolling */
-  background-size: cover; /* Ensures the image covers the entire screen */
+img {
+  width: 100vw;   /* 100% of the viewport width */
+  height: 100vh;  /* 100% of the viewport height */
+  object-fit: cover; /* Resizes to fill the container while preserving aspect ratio and cropping excess */
+  display: block; /* Helps remove extra space left by inline elements */
 }
